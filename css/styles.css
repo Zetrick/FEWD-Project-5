@@ -1,5 +1,9 @@
                                                 /* Class Styles */
-
+html
+{
+    padding: 0;
+    margin: 0;
+}
 .search-bar-container
 {
     display: flex;
@@ -10,8 +14,8 @@
 .gallery
 {
     justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
+    padding: 0 15px;
     display: grid;
     grid-template-columns: repeat(auto-fit, 200px);
     gap: 30px;
@@ -22,7 +26,6 @@
 {
     width: 200px;
     height: 200px;
-    background: rosybrown;
 }
 
 
@@ -31,8 +34,8 @@
 {
     font-size: small;
     padding: 15px;
-    width: 50%;
-    max-width: 475px;
+    width: 55%;
+    max-width: 600px;
     border: 2px solid rgb(212, 212, 212);
     color: rgb(124, 124, 124);
     border-radius: 5px;
