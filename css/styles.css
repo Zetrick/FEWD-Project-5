@@ -1,0 +1,39 @@
+                                                /* Class Styles */
+
+.search-bar-container
+{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.gallery
+{
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    gap: 30px;
+    max-width: 1024px;
+}
+
+.photo
+{
+    width: 200px;
+    height: 200px;
+    background: rosybrown;
+}
+
+
+                                                /* ID Styles */
+#search
+{
+    font-size: small;
+    padding: 15px;
+    width: 50%;
+    max-width: 475px;
+    border: 2px solid rgb(212, 212, 212);
+    color: rgb(124, 124, 124);
+    border-radius: 5px;
+}
